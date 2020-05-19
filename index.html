@@ -33,18 +33,6 @@ body, html {
   min-height: 100%;
 }
 
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("/w3images/port.jpeg");
-  min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("/w3images/contact.jpg");
-  min-height: 400px;
-}
-
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
@@ -55,6 +43,7 @@ body, html {
     min-height: 400px;
   }
 }
+
 </style>
 <body>
 
@@ -84,7 +73,7 @@ body, html {
 
 <!-- First Parallax Image with Logo Text -->
 <div class="w3-display-container w3-opacity-min" id="home">
-	<video class="vid" autoplay loop muted playsinline>
+	<video class="vid w3-image" autoplay loop muted playsinline>
 		<source src="w3images/laptop.mov" type="video/mp4" />
 		Your browser does not support the video tag.
 	  </video>
@@ -129,7 +118,8 @@ body, html {
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
+<div class=" w3-display-container w3-opacity-min ">
+  <img src="/w3images/port.jpeg" alt="Lights" class="w3-image">
 </div>
 
 <!-- Container (Portfolio Section) -->
@@ -152,11 +142,13 @@ body, html {
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
+</div>
 
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
+<!-- Third Parallax Image with Contact Text -->
+<div class="w3-display-container w3-opacity-min">
+  <img src="/w3images/contact-us.jpg" alt="Lights" class="w3-image">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+     <span class="w3-xxlarge w3-text-black w3-wide">CONTACT</span>
   </div>
 </div>
 

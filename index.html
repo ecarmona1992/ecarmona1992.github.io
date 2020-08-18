@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
@@ -74,26 +75,25 @@ body, html {
 		Your browser does not support the video tag.
 	  </video>
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> Welcome! </span>
+    <span class="w3-center w3-padding-small w3-black w3-xlarge w3-wide"> Hi! Welcome to my page </span>
   </div>
 </div>
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>Senior at CSUF.</em></p>
+  <h3 class="w3-center w3-large">ABOUT ME</h3>
+  <p class="w3-center w3-xxlarge"><em> Hello! I'm Emanuel Carmona. </em></p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>Emanuel Carmona</b></p><br>
       <img src="/w3images/emanuel.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 l w3-padding-large">
-      <p>Hi my name is Emanuel Carmona and thank you for stopping by and viewing my website.I am currently attending Cal State Fulleron as 
-        senior and im very excited to begin my journey as a developer. I fell in love with web development because it gives me the freedom to be creative and solve new challenges. 
+      <p>Thank you for stopping by and viewing my website.I am currently attending Cal State Fulleron as 
+        senior and im very excited to begin my journey as a web developer. I fell in love with web development because it gives me the freedom to be creative and solve new challenges. 
         The amazing thing about this is that there is so much to learn and my biggest problem is trying to pick what next topic i should focus on. I just want to learn everything. 
-        Currently i am working for Code to the Future which is an amazing company that teaches students to code and play chess. This gives me a chance to get children interested
+        Currently I am working for Code to the Future which is an amazing company that teaches students to code and play chess. This gives me a chance to get children interested
         in the wonderful field of programming by creating games. 
     </div>
   </div>
@@ -122,12 +122,119 @@ body, html {
   <h3 class="w3-center">Projects</h3>
   <p class="w3-center"><em>Here are some of my latest projects<br> Click on the images to see it on github</em></p><br>
 
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+
+  <!-- First project Covid website -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m12">
-   <a href="https://github.com/ecarmona1992/covid19"><img src="/w3images/covid.png" style="width:100%" class="w3-hover-opacity" alt="Covid-19"></a>  
+    <button type="button" class="collapsible"><img src="/w3images/covid.png" style="width:100%" class="w3-hover-opacity" alt="Covid-19">
+    <p class="w3-center">Click to see details.</p>
+    </button>
+      <div class="content">
+        <div class="w3-card-4">
+
+          <header class="w3-container w3-light-grey">
+            <h3>Covid-19 Website</h3>
+          </header>
+          
+          <div class="w3-container">
+            <p>This project was a final for my front-end web development class and we were instructed to create a covid-19 website.
+              I did a lot of research before starting this project since i had didn't have much knowledge on how to use react or google firebase and 
+              i demonstrated that i can adapt and learn something new when it is required of me.</p>
+            <hr class="projectLine">
+  
+            <ul class="w3-ul w3-border">
+              <li><h2>Key Features</h2></li>
+              <li>Built with REACT. and ReactJS charts to display case numbers and other information of Orange County.</li>
+              <li>Google Firebase authentication for creating user accounts.</li>
+              <li>Google Firestore for storing user posts and replies. </li>
+            </ul>
+          </div>
+          <hr class="projectLine">
+
+          <button class="w3-button w3-block w3-dark-grey">Video Demonstration</button>
+      
+          </div>
+          <p></p>
+      </div> 
+
     </div>
 </div>
+
+<p class="padCard"></p>
+
+<!-- Second project DVD website -->
+<div class="w3-row-padding w3-center">
+  <div class="w3-col m12">
+  <button type="button" class="collapsible"><img src="w3images/dvd.png" style="width:100%" class="w3-hover-opacity" alt="DVD Website">
+  <p class="w3-center">Click to see details.</p>
+  </button>
+    <div class="content">
+      <div class="w3-card-4">
+
+        <header class="w3-container w3-light-grey">
+          <h3>DVD Website</h3>
+        </header>
+        
+        <div class="w3-container">
+          <p>Blockbluster is a video rental application, users can search for movies by their titles 
+            and can either choose to rent them or to instead read/write reviews.</p>
+          <hr>
+
+          <ul class="w3-ul w3-border">
+            <li><h2>Key Features</h2></li>
+            <li>Bootstrap 4 to create the responsive webpages.</li>
+            <li>Allows users to create profiles and search/rent movies.</li>
+            <li>PHP/MYSQL used to store information of movies and profiles.</li>
+          </ul>
+
+        </div>
+        
+        <button class="w3-button w3-block w3-dark-grey">Video Demonstration</button>
+    
+        </div>
+        <p></p>
+    </div> 
+
+  </div>
+</div>
+
+<p class="padCard"></p>
+
+
+<!-- Second project DVD website -->
+<!-- <div class="w3-row-padding w3-center">
+  <div class="w3-col m12">
+  <button type="button" class="collapsible"><img src="#" style="width:100%" class="w3-hover-opacity" alt="Skating Website.">
+  <p class="w3-center">Click to see details.</p>
+  </button>
+    <div class="content">
+      <div class="w3-card-4">
+
+        <header class="w3-container w3-light-grey">
+          <h3>Skating Website</h3>
+        </header>
+        
+        <div class="w3-container">
+          <p>Blockbluster is a video rental application, users can search for movies by their titles 
+            and can either choose to rent them or to instead read/write reviews.</p>
+          <hr>
+
+          <p>Key Features</p>
+        </div>
+        
+        <button class="w3-button w3-block w3-dark-grey">Video Demonstration</button>
+    
+        </div>
+        <p></p>
+    </div> 
+
+  </div>
+</div> -->
+
+
+
+
+
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
@@ -197,6 +304,22 @@ function toggleFunction() {
     } else {
         x.className = x.className.replace(" w3-show", "");
     }
+}
+
+//collapsable section for portfolio
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
 }
 </script>
 

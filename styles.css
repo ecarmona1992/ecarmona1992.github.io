@@ -78,6 +78,16 @@
     padding-top: 1.5rem;
   }
 
+  .about { 
+    color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 65px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+  }
+
   /* responsive screen */
   @media (max-width:900px){
     .w3-modal-content {
@@ -105,7 +115,6 @@
     .container {
       height: 70%;
     }
-
 
   }
 

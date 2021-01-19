@@ -63,6 +63,10 @@
     font-size: 20px;
   }
 
+  .video {
+    text-decoration: underline;
+  }
+
   .video:hover {
     background-color: #444;
     color: #fff;
